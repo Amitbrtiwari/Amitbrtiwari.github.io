@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Amit Tiwari</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Amit Tiwari - Software Engineer, DevOps Enthusiast & Technical Solution Engineer">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/contact.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <!-- Header loaded dynamically -->
+  <div id="header"></div>
+
+  <main class="container">
+    <!-- Page Header -->
+    <section class="contact-header">
+      <h1 class="page-title">Let's <span class="gradient-text">Connect</span></h1>
+      <p class="page-subtitle">
+        I'm actively seeking opportunities in Software Development, DevOps, and Technical Solutions.
+        Let's discuss how I can contribute to your team!
+      </p>
+      <div class="availability-badge">
+        <i class="fas fa-circle" style="color: #10b981;"></i>
+        <span>Open to Opportunities</span>
+      </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <div class="contact-grid">
+      <!-- Contact Info Card -->
+      <div class="contact-info-card">
+        <div class="contact-card-header">
+          <h2>Contact Information</h2>
+          <p>Available for roles in Software Engineering, DevOps, and Technical Solutions</p>
+        </div>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-content">
+              <h3>Email</h3>
+              <a href="mailto:amittiwari5728@gmail.com" class="contact-link">amittiwari5728@gmail.com</a>
+              <p class="contact-note">Prefer email for formal communications</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-content">
+              <h3>Phone & WhatsApp</h3>
+              <a href="tel:+917084935585" class="contact-link">+91 7084935585</a>
+              <a href="https://wa.me/917084935585" class="contact-link whatsapp">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+              </a>
+              <p class="contact-note">Available for calls: 10 AM - 8 PM IST</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="contact-content">
+              <h3>LinkedIn</h3>
+              <a href="https://linkedin.com/in/amit-tiwari-21a873225" target="_blank" class="contact-link">
+                linkedin.com/in/amit-tiwari-21a873225
+              </a>
+              <p class="contact-note">Connect for professional networking</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-content">
+              <h3>GitHub</h3>
+              <a href="https://github.com/amittiwari" target="_blank" class="contact-link">
+                github.com/amittiwari
+              </a>
+              <p class="contact-note">Check out my projects and contributions</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-content">
+              <h3>Location</h3>
+              <p class="contact-link">Greater Noida, Uttar Pradesh, India</p>
+              <p class="contact-note">Open to relocation & remote opportunities</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="quick-contact-actions">
+          <a href="mailto:amittiwari5728@gmail.com" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Email
+          </a>
+          <a href="https://wa.me/917084935585" class="btn btn-secondary whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form Card -->
+      <div class="contact-form-card">
+        <div class="form-header">
+          <h2>Send Me a Message</h2>
+          <p>I'll respond within 24 hours</p>
+        </div>
+        
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">
+              <i class="fas fa-user"></i> Full Name *
+            </label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">
+              <i class="fas fa-envelope"></i> Email Address *
+            </label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+          </div>
+          
+          <div class="form-group">
+            <label for="company">
+              <i class="fas fa-building"></i> Company / Organization
+            </label>
+            <input type="text" id="company" name="company" placeholder="Where do you work?">
+          </div>
+          
+          <div class="form-group">
+            <label for="purpose">
+              <i class="fas fa-bullseye"></i> Purpose of Contact *
+            </label>
+            <select id="purpose" name="purpose" required>
+              <option value="">Select a purpose</option>
+              <option value="job">Job Opportunity</option>
+              <option value="project">Project Collaboration</option>
+              <option value="freelance">Freelance Work</option>
+              <option value="consultation">Technical Consultation</option>
+              <option value="networking">Professional Networking</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="role">
+              <i class="fas fa-briefcase"></i> Interested Role (If Job Opportunity)
+            </label>
+            <div class="role-tags">
+              <label class="role-tag">
+                <input type="checkbox" name="role" value="sde">
+                <span>SDE</span>
+              </label>
+              <label class="role-tag">
+                <input type="checkbox" name="role" value="devops">
+                <span>DevOps Engineer</span>
+              </label>
+              <label class="role-tag">
+                <input type="checkbox" name="role" value="support">
+                <span>Technical Support</span>
+              </label>
+              <label class="role-tag">
+                <input type="checkbox" name="role" value="solution">
+                <span>Solution Engineer</span>
+              </label>
+              <label class="role-tag">
+                <input type="checkbox" name="role" value="fresher">
+                <span>Fresher IT Roles</span>
+              </label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">
+              <i class="fas fa-comment"></i> Message *
+            </label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell me about the opportunity or how I can help..."></textarea>
+          </div>
+          
+          <div class="form-footer">
+            <button type="submit" class="btn btn-primary btn-large">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-note">
+              <i class="fas fa-shield-alt"></i> Your information is safe with me. No spam, ever.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Roles Section -->
+    <section class="roles-section">
+      <h2 class="section-title">Roles I'm Interested In</h2>
+      <div class="roles-grid">
+        <div class="role-card">
+          <div class="role-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Software Development Engineer</h3>
+          <p>Building scalable applications with modern technologies. Expertise in full-stack development with React, Node.js, and Python.</p>
+          <div class="role-tags">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Python</span>
+          </div>
+        </div>
+        
+        <div class="role-card">
+          <div class="role-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3>DevOps Engineer</h3>
+          <p>Implementing CI/CD pipelines, containerization, and cloud infrastructure. Experience with Docker, Jenkins, and AWS.</p>
+          <div class="role-tags">
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Jenkins</span>
+            <span class="tech-tag">AWS</span>
+          </div>
+        </div>
+        
+        <div class="role-card">
+          <div class="role-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Technical Support Engineer</h3>
+          <p>Providing technical assistance, troubleshooting, and customer support. Strong problem-solving and communication skills.</p>
+          <div class="role-tags">
+            <span class="tech-tag">Troubleshooting</span>
+            <span class="tech-tag">Customer Service</span>
+            <span class="tech-tag">Documentation</span>
+          </div>
+        </div>
+        
+        <div class="role-card">
+          <div class="role-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>Solution Engineer</h3>
+          <p>Designing technical solutions, system architecture, and bridging business requirements with technical implementation.</p>
+          <div class="role-tags">
+            <span class="tech-tag">Architecture</span>
+            <span class="tech-tag">Solutions</span>
+            <span class="tech-tag">Consultation</span>
+          </div>
+        </div>
+        
+        <div class="role-card">
+          <div class="role-icon">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Fresher IT Roles</h3>
+          <p>Eager to learn and grow in entry-level positions. Flexible and adaptable to various IT domains and technologies.</p>
+          <div class="role-tags">
+            <span class="tech-tag">Learning</span>
+            <span class="tech-tag">Adaptability</span>
+            <span class="tech-tag">Growth</span>
+          </div>
+        </div>
+        
+        <div class="role-card">
+          <div class="role-icon">
+            <i class="fas fa-project-diagram"></i>
+          </div>
+          <h3>Project Collaboration</h3>
+          <p>Open to freelance projects, open-source contributions, and collaborative development opportunities.</p>
+          <div class="role-tags">
+            <span class="tech-tag">Freelance</span>
+            <span class="tech-tag">Open Source</span>
+            <span class="tech-tag">Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="contact-cta">
+      <div class="cta-content">
+        <h2>Ready to Work Together?</h2>
+        <p>I'm flexible, adaptable, and ready to contribute to your team's success.</p>
+        <div class="cta-actions">
+          <a href="mailto:amittiwari5728@gmail.com?subject=Job Opportunity&body=Hi Amit, I came across your portfolio and would like to discuss an opportunity." class="btn btn-primary btn-large">
+            <i class="fas fa-briefcase"></i> Hire Me
+          </a>
+          <a href="resume.html" class="btn btn-secondary">
+            <i class="fas fa-file-alt"></i> View Resume
+          </a>
+          <a href="projects.html" class="btn btn-secondary">
+            <i class="fas fa-code"></i> See Projects
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Amit</h2>
+          <p>Building the future, one line of code at a time</p>
+          <div class="footer-contact">
+            <a href="mailto:amittiwari5728@gmail.com" class="footer-link">
+              <i class="fas fa-envelope"></i> amittiwari5728@gmail.com
+            </a>
+            <a href="tel:+917084935585" class="footer-link">
+              <i class="fas fa-phone"></i> +91 7084935585
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="devops.html">DevOps</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Me</h3>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/amit-tiwari-21a873225" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/amittiwari" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/917084935585" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:amittiwari5728@gmail.com">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <div class="footer-availability">
+            <i class="fas fa-circle" style="color: #10b981;"></i>
+            <span>Available for opportunities</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Amit Tiwari. All rights reserved.</p>
+        <p class="footer-note">Open to Software Engineering, DevOps, and Technical roles</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/header-loader.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume | Amit Tiwari</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amit Tiwari - Software Engineer Resume with DevOps expertise">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/resume.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <!-- Header loaded dynamically -->
+  <div id="header"></div>
+
+  <main class="container">
+    <!-- Resume Header -->
+    <section class="resume-header">
+      <div class="resume-header-content">
+        <div class="resume-title-section">
+          <h1 class="resume-title">Amit Tiwari</h1>
+          <p class="resume-subtitle">Software Engineer | DevOps Enthusiast</p>
+          <p class="resume-summary">
+            Building scalable applications with modern web technologies and DevOps practices
+          </p>
+        </div>
+        <div class="resume-actions">
+          <button class="btn btn-primary" id="print-resume">
+            <i class="fas fa-print"></i> Print Resume
+          </button>
+          <button class="btn btn-secondary" id="download-pdf">
+            <i class="fas fa-download"></i> Download PDF
+          </button>
+          <div class="view-toggle">
+            <button class="view-btn active" data-view="digital">
+              <i class="fas fa-desktop"></i> Digital View
+            </button>
+            <button class="view-btn" data-view="traditional">
+              <i class="fas fa-file-alt"></i> Traditional View
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Container -->
+    <div class="resume-container" id="resume-container">
+      
+      <!-- Left Column -->
+      <div class="resume-left">
+        <!-- Contact Info -->
+        <section class="resume-section contact-section">
+          <h2 class="section-title-left">
+            <i class="fas fa-user"></i> Contact
+          </h2>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 7084935585</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>amit.tiwari@example.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Greater Noida, India</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <span>linkedin.com/in/amit-tiwari</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <span>github.com/amittiwari</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-link"></i>
+              <span>amittiwari.portfolio.com</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="resume-section skills-section">
+          <h2 class="section-title-left">
+            <i class="fas fa-code"></i> Technical Skills
+          </h2>
+          <div class="skills-category">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React.js</span>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Backend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">RESTful APIs</span>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Databases & Cloud</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">AWS (EC2, S3)</span>
+              <span class="skill-tag">Linux</span>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>DevOps & Tools</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Jenkins</span>
+              <span class="skill-tag">Git/GitHub</span>
+              <span class="skill-tag">Postman</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Soft Skills -->
+        <section class="resume-section soft-skills-section">
+          <h2 class="section-title-left">
+            <i class="fas fa-users"></i> Soft Skills
+          </h2>
+          <div class="soft-skills-list">
+            <div class="soft-skill-item">
+              <div class="skill-name">Problem Solving</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="soft-skill-item">
+              <div class="skill-name">Collaboration</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="soft-skill-item">
+              <div class="skill-name">Adaptability</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 88%"></div>
+              </div>
+            </div>
+            <div class="soft-skill-item">
+              <div class="skill-name">Time Management</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 87%"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Languages -->
+        <section class="resume-section languages-section">
+          <h2 class="section-title-left">
+            <i class="fas fa-language"></i> Languages
+          </h2>
+          <div class="language-item">
+            <div class="language-name">English</div>
+            <div class="language-level">Professional Proficiency</div>
+            <div class="language-desc">Professional communication skills with international clients</div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column -->
+      <div class="resume-right">
+        <!-- Summary -->
+        <section class="resume-section summary-section">
+          <h2 class="section-title-right">
+            <i class="fas fa-star"></i> Professional Summary
+          </h2>
+          <p class="summary-text">
+            Software Engineer with expertise in HTML, CSS, JavaScript, React, Python, SQL, and DevOps concepts. 
+            Passionate about building practical applications, improving system efficiency, and implementing 
+            scalable solutions. Seeking to apply technical knowledge in a challenging environment to gain 
+            hands-on industry experience and contribute to innovative projects.
+          </p>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="resume-section experience-section">
+          <h2 class="section-title-right">
+            <i class="fas fa-briefcase"></i> Work Experience
+          </h2>
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>Content Management & Support</h3>
+              <div class="experience-company">E-Global Soft Solution</div>
+              <div class="experience-period">Aug 2023 - April 2024</div>
+            </div>
+            <ul class="experience-points">
+              <li>Managed content lifecycle processes for international clients</li>
+              <li>Applied problem-solving skills in fast-paced professional environment</li>
+              <li>Collaborated with cross-functional teams to ensure timely delivery</li>
+              <li>Implemented efficient workflows to improve content management systems</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section class="resume-section education-section">
+          <h2 class="section-title-right">
+            <i class="fas fa-graduation-cap"></i> Education
+          </h2>
+          <div class="education-item">
+            <div class="education-header">
+              <h3>Master of Computer Applications (MCA)</h3>
+              <div class="education-institute">GL Bajaj Institute of Technology & Management, Greater Noida</div>
+              <div class="education-period">2024 - 2026 | CGPA: 8.2/10</div>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-header">
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <div class="education-institute">GL Bajaj Institute of Management, Greater Noida</div>
+              <div class="education-period">2020 - 2023 | Percentage: 77%</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="resume-section projects-section">
+          <h2 class="section-title-right">
+            <i class="fas fa-project-diagram"></i> Key Projects
+          </h2>
+          <div class="project-item">
+            <div class="project-header">
+              <h3>Smart Time Table Scheduler Application</h3>
+              <div class="project-tech">React.js • Node.js • AWS • Jenkins</div>
+            </div>
+            <ul class="project-points">
+              <li>Developed full-stack application for academic scheduling using React.js frontend and Node.js backend</li>
+              <li>Automated CI/CD pipeline using Jenkins for testing and deployment to AWS EC2</li>
+              <li>Implemented RESTful APIs for efficient data handling and real-time updates</li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <div class="project-header">
+              <h3>Netflix Clone</h3>
+              <div class="project-tech">HTML • CSS • JavaScript • Python</div>
+            </div>
+            <ul class="project-points">
+              <li>Developed responsive Netflix-style web application with dynamic content rendering</li>
+              <li>Implemented user interface components and basic backend logic for movie listings</li>
+              <li>Focused on clean UI design, responsiveness, and frontend-backend integration</li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <div class="project-header">
+              <h3>Portfolio Website</h3>
+              <div class="project-tech">HTML • CSS • JavaScript • Python</div>
+            </div>
+            <ul class="project-points">
+              <li>Built and deployed responsive personal portfolio with interactive UI</li>
+              <li>Featured project showcases with detailed descriptions and live demos</li>
+              <li>Hosted on live server with optimized performance and SEO</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="resume-section certifications-section">
+          <h2 class="section-title-right">
+            <i class="fas fa-certificate"></i> Certifications
+          </h2>
+          <div class="certifications-list">
+            <div class="certification-item">
+              <span class="cert-name">AWS Certified Cloud Practitioner</span>
+              <span class="cert-date">2024</span>
+            </div>
+            <div class="certification-item">
+              <span class="cert-name">React.js Developer Certificate</span>
+              <span class="cert-date">2023</span>
+            </div>
+            <div class="certification-item">
+              <span class="cert-name">Python Programming Specialization</span>
+              <span class="cert-date">2023</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Traditional Resume View (Hidden by default) -->
+    <div class="traditional-resume" id="traditional-resume" style="display: none;">
+      <div class="traditional-resume-content">
+        <!-- Traditional resume content optimized for printing -->
+        <div class="traditional-header">
+          <h1>Amit Tiwari</h1>
+          <div class="traditional-contact">
+            <span>+91 7084935585 • Greater Noida, India • amit.tiwari@example.com</span>
+            <span>linkedin.com/in/amit-tiwari • github.com/amittiwari • portfolio.amittiwari.com</span>
+          </div>
+        </div>
+        
+        <div class="traditional-section">
+          <h2>Professional Summary</h2>
+          <p>Software Engineer with expertise in HTML, CSS, JavaScript, React, Python, SQL, and DevOps concepts. Passionate about building practical applications, improving system efficiency, and implementing scalable solutions.</p>
+        </div>
+        
+        <!-- Rest of traditional resume content -->
+        <!-- (Similar structure but optimized for A4 printing) -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Amit</h2>
+          <p>Building the future, one line of code at a time</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="devops.html">DevOps</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Me</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Amit Tiwari. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/header-loader.js"></script>
+  <script src="js/resume.js"></script>
+  <!-- PDF Generation Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>

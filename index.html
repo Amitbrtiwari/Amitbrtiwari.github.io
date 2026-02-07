@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amit Tiwari | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Amit Tiwari - Software Engineer, DevOps Enthusiast & Technical Solution Engineer">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/chat.css"> 
+</head>
+<body>
+  <!-- Header will be loaded dynamically -->
+  <div id="header"></div>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Amit Tiwari</h1>
+          <p class="hero-subtitle">Software Engineer | DevOps Enthusiast | Technical Solution Engineer</p>
+          <p class="hero-description">
+            I build scalable web applications, implement DevOps workflows, 
+            and design efficient technical solutions using modern technologies.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/amit.png" alt="Amit Tiwari" class="profile-img">
+          <div class="image-decoration"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p class="about-text">
+          I'm a passionate software engineer with expertise in full-stack development, 
+          DevOps practices, and solution architecture. I enjoy building applications 
+          that are not only functional but also scalable and maintainable.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <i class="fas fa-code"></i>
+            <h3>Clean Code</h3>
+            <p>Writing maintainable and efficient code following best practices</p>
+          </div>
+          <div class="highlight-card">
+            <i class="fas fa-cogs"></i>
+            <h3>DevOps Mindset</h3>
+            <p>Implementing CI/CD, automation, and cloud-native solutions</p>
+          </div>
+          <div class="highlight-card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Problem Solving</h3>
+            <p>Designing technical solutions for complex business challenges</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I Do Section -->
+    <section class="skills-section" id="skills">
+      <h2 class="section-title">What I Do</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Frontend Development</h3>
+          <ul class="skill-list">
+            <li>HTML5, CSS3, JavaScript (ES6+)</li>
+            <li>React.js & Vue.js</li>
+            <li>Responsive Web Design</li>
+            <li>Performance Optimization</li>
+          </ul>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3>DevOps & CI/CD</h3>
+          <ul class="skill-list">
+            <li>Docker & Containerization</li>
+            <li>Jenkins, GitHub Actions</li>
+            <li>AWS, Cloud Deployment</li>
+            <li>Infrastructure as Code</li>
+          </ul>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-project-diagram"></i>
+          </div>
+          <h3>System & Solution Design</h3>
+          <ul class="skill-list">
+            <li>Microservices Architecture</li>
+            <li>API Design & Development</li>
+            <li>Database Design</li>
+            <li>Scalability Planning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <h2>Ready to Build Something Amazing?</h2>
+      <p>Let's connect and discuss how we can work together</p>
+      <a href="contact.html" class="btn btn-primary btn-large">Contact Me</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Amit</h2>
+          <p>Building the future, one line of code at a time</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="devops.html">DevOps</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Me</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Amit Tiwari. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/header-loader.js"></script>
+  <script src="js/animations.js"></script>
+
+
+
+
+  <!-- Chatbot Widget -->
+<div class="chatbot-widget" id="chatbot-widget">
+  <!-- Chatbot Toggle Button -->
+  <button class="chatbot-toggle" id="chatbot-toggle">
+    <i class="fas fa-comment-dots"></i>
+    <span class="chatbot-notification">1</span>
+  </button>
+  
+  <!-- Chatbot Container -->
+  <div class="chatbot-container" id="chatbot-container">
+    <!-- Chatbot Header -->
+    <div class="chatbot-header">
+      <div class="chatbot-header-content">
+        <div class="chatbot-avatar">
+          <img src="https://ui-avatars.com/api/?name=Amit+Tiwari&background=7c3aed&color=fff" alt="Amit AI">
+        </div>
+        <div class="chatbot-info">
+          <h3>Amit Assistant</h3>
+          <p>Ask me about Amit</p>
+        </div>
+      </div>
+      <button class="chatbot-close" id="chatbot-close">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <!-- Chatbot Messages -->
+    <div class="chatbot-messages" id="chatbot-messages">
+      <!-- Initial greeting message -->
+      <div class="message bot-message">
+        <div class="message-content">
+          <p>Hi! I'm Amit's assistant. You can ask me about:</p>
+          <div class="quick-questions">
+            <button class="quick-question" data-question="Who is Amit?">👤 Who is Amit?</button>
+            <button class="quick-question" data-question="What are his skills?">💻 What are his skills?</button>
+            <button class="quick-question" data-question="What projects has he done?">🚀 What projects has he done?</button>
+            <button class="quick-question" data-question="How to contact him?">📞 How to contact him?</button>
+            <button class="quick-question" data-question="What is his experience?">💼 What is his experience?</button>
+            <button class="quick-question" data-question="What is his education?">🎓 What is his education?</button>
+          </div>
+          <p>Or type your own question!</p>
+        </div>
+        <span class="message-time">Just now</span>
+      </div>
+    </div>
+    
+    <!-- Chatbot Input -->
+    <div class="chatbot-input">
+      <input type="text" 
+             id="chatbot-input" 
+             placeholder="Type your question about Amit..."
+             autocomplete="off">
+      <button id="chatbot-send">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+    
+    <!-- Typing Indicator -->
+    <div class="typing-indicator" id="typing-indicator">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script src="js/chat.js"></script>
+</body>
+</html>
